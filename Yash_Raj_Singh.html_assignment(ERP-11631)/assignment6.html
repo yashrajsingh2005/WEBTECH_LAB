@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Calculator</title>
+    <script>
+        function calculateSquare(num) {
+            return num * num;
+        }
+
+        function showSquare() {
+            let number = prompt("Enter a number:");
+            let result = calculateSquare(Number(number));
+            alert("Square: " + result);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="showSquare()">Calculate Square</button>
+</body>
+</html>

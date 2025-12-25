@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Positioning Example</title>
+    <style>
+        header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        .relative-box {
+            position: relative;
+            top: 30px;
+            background-color: lightgreen;
+            padding: 20px;
+            margin: 10px;
+        }
+        .absolute-box {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: orange;
+            padding: 20px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="relative-box">Relative Box (shifted 30px down)</div>
+    <div class="absolute-box">Absolute Box (top-right corner)</div>
+    <footer>Fixed Footer</footer>
+</body>
+</html>
